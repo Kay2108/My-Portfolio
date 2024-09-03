@@ -1,0 +1,114 @@
+/**
+.flexitem{
+    height: 100px;
+    width: 200px;
+    border: solid thin gold;
+    border-radius: 5%;
+    flex: 1;
+}
+
+#flexcontainer {
+    height: 30vh;
+    width: 40vw;
+    border: solid thin red;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#id1 {
+    align-self: flex-start;
+
+}
+    **/
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 380;
+    font-style: normal;
+    font-variation-settings: "width" 80;
+}
+
+form {
+    border: solid thin #a9a9a9;
+    border-radius: 5%;
+    overflow: hidden;
+    padding: 0 0 2rem;
+}
+
+form > p {
+    font-size: 4rem;
+    background-color: #00ffff;
+    margin: 0;
+    padding: 4rem;
+    text-align: center;
+}
+
+fieldset {
+    border: solid thin #0084ff;
+    margin: 10px;
+    padding: 0 3rem;
+}
+
+fieldset > label {
+    display: block;
+    margin: 0 0 0.5rem;
+    font-size: 1.2rem;
+    color: darkgrey;    
+}
+
+fieldset:first-of-type > label {
+    margin-top: 3rems;
+}
+
+input[type="text"],
+input[type="email"],
+
+textarea {
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+input[type="search"],
+textarea {
+    outline: none;
+}
+
+input[type="submit"] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #90ee90;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background: #8a2be2;
+}
